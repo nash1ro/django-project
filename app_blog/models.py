@@ -53,7 +53,7 @@ class ArticleImage(models.Model):
 
     class Meta:
         verbose_name = u'Фото для статті'
-        verbose_name_plural = u'Фото для статті'
+        verbose_name_plural = u'Фото для статтей'
 
     def __str__(self):
         return self.title
